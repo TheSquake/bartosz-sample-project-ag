@@ -50,6 +50,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'bartosz-sample-project'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2F6F24B5DF1C4386AE1987D9EE7F76BD }}
-          package: .
+          package: ./dist/bartosz-sample-project-ag
