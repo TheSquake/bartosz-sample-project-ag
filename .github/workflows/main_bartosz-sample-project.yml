@@ -51,4 +51,4 @@ jobs:
         with:
           app-name: 'bartosz-sample-project'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2F6F24B5DF1C4386AE1987D9EE7F76BD }}
-          package: ./dist/bartosz-sample-project-ag
+          package: ./dist/bartosz-sample-project
